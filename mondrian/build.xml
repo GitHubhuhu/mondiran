@@ -11,7 +11,7 @@
 <project name="mondrian">
   <target name="define-tasks">
     <taskdef name="javacup" classname="java_cup.JavaCUPTask">
-      <classpath path="${classpath}"/>
+      <classpath path="/srv/jd/mondrian/pentaho-aggdesigner-ui/lib/javacup-10k.jar"/>
     </taskdef>
 
     <taskdef name="xomgen" classname="org.eigenbase.xom.XOMGenTask">
